@@ -4,10 +4,9 @@
 
 Dokumentasi belajar laravel 8
 
-1. Saat Bikin API Post (PostController) seluruh route di daftarkan di file VerifyCsrfToken
+1. Saat Bikin API Post (PostController) seluruh route di daftarkan di file VerifyCsrfToken.php
 
 protected $except = [
-//
 'post/*',
 ];
 
